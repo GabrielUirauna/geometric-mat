@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name":"Tetraedro / Pirâmide",
+        "texto": "Tetraedro regular: Tem quatro faces que são triângulos equiláteros. Ou seja, seus três lados têm a mesma medida, assim como seus ângulos internos, que são 60º (a soma dos ângulos internos de um triângulo é sempre 180º)."
+    },
+    {
+        "id": 2,
+        "name":"Hexaedro",
+        "texto": "Hexaedro: É uma figura de seis lados formada por quadrados idênticos. Lembre-se que um quadrado é um quadrilátero regular, especificamente um paralelogramo. Caracteriza-se porque seus quatro lados medem o mesmo e seus ângulos internos também são todos iguais e retos (medem 90º)."
+    },
+    {
+        "id": 3,
+        "name":"Octaedro",
+        "texto": "Octaedro Regular: Suas oito faces são triângulos equiláteros idênticos."
+    },
+    {
+        "id": 4,
+        "name":"Dodecaedro",
+        "texto": "Dodecaedro regular: É uma figura com doze lados, todos os quais são pentágonos iguais entre si. Esses pentágonos, por sua vez, são regulares. Ou seja, são polígonos com cinco lados que têm todos o mesmo comprimento."
+    },
+    {
+        "id": 5,
+        "name":"Icosaedro",
+        "texto": "Icosaedro Regular: É um poliedro com vinte faces, todas elas triângulos equiláteros iguais."
+    },
+    {
+        "id": 6,
+        "name":"Esfera",
+        "texto": "Uma esfera é um semicírculo que gira sobre seu próprio diâmetro, ou seja, uma figura lisa que não possui lados e cantos."
+    },
+    {
+        "id": 7,
+        "name": "Toróide ou Toro",
+        "texto": "Um toróide é uma superfície de revolução de um círculo em torno de um eixo. O toróide é um objeto geométrico que pode ser construído a partir de um anel e um tubo. O anel é um círculo que pode ser girado em torno de um eixo. O tubo é um cilindro que pode ser girado em torno de seu eixo. O toróide é a superfície que é formada pela rotação do anel ao redor do tubo."
+    }
+]

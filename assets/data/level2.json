@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Cubo",
+        "opt1": "Cone",
+        "opt2": "Esfera",
+        "opt3": "Cubo",
+        "opt4": "Cilindro"
+    },
+    {
+        "id": 2,
+        "name": "Octaedro",
+        "opt1": "Dodecaedro",
+        "opt2": "Octaedro",
+        "opt3": "Tetraedro",
+        "opt4": "Cubo"
+    },
+    {
+        "id": 3,
+        "name": "Icosaedro",
+        "opt1": "Icosaedro",
+        "opt2": "Tetraedro",
+        "opt3": "Dodecaedro",
+        "opt4": "Prisma"
+    },
+    {
+        "id": 4,
+        "name": "Tetraedro",
+        "opt1": "Octaedro",
+        "opt2": "Tetraedro",
+        "opt3": "Hexaedro",
+        "opt4": "Toróide"
+    },
+    {
+        "id": 5,
+        "name": "Dodecaedro",
+        "opt1": "Dodecaedro",
+        "opt2": "Icosaedro",
+        "opt3": "Toróide enrolado",
+        "opt4": "Esfera"
+    },
+    {
+        "id": 6,
+        "name": "Esfera",
+        "opt1": "Octaedro",
+        "opt2": "Esfera",
+        "opt3": "Cubo",
+        "opt4": "Icosaedro"
+    },
+    {
+        "id": 7,
+        "name": "Prisma",
+        "opt1": "Dodecaedro",
+        "opt2": "Octaedro",
+        "opt3": "Tetraedro",
+        "opt4": "Prisma"
+    },
+    {
+        "id": 8,
+        "name": "Toróide",
+        "opt1": "Toróide",
+        "opt2": "Cubo",
+        "opt3": "Dodecaedro",
+        "opt4": "Esfera"
+    },
+    {
+        "id": 9,
+        "name": "Pirâmide",
+        "opt1": "Octaedro",
+        "opt2": "Pirâmide",
+        "opt3": "Hexaedro",
+        "opt4": "Esfera"
+    },
+    {
+        "id": 10,
+        "name": "Toróide enrolado",
+        "opt1": "Dodecaedro",
+        "opt2": "Icosaedro",
+        "opt3": "Pirâmide",
+        "opt4": "Toróide enrolado"
+    },
+    {
+        "id": 11,
+        "name": "Prisma",
+        "opt1": "Pirâmide",
+        "opt2": "Prisma",
+        "opt3": "Cubo",
+        "opt4": "Cone"
+    },
+    {
+        "id": 12,
+        "name": "Octaedro",
+        "opt1": "Dodecaedro",
+        "opt2": "Octaedro",
+        "opt3": "Tetraedro",
+        "opt4": "Esfera"
+    },
+    {
+        "id": 13,
+        "name": "Icosaedro",
+        "opt1": "Icosaedro",
+        "opt2": "Cubo",
+        "opt3": "Dodecaedro",
+        "opt4": "Toróide triangular"
+    },
+    {
+        "id": 14,
+        "name": "Tetraedro",
+        "opt1": "Octaedro",
+        "opt2": "Tetraedro",
+        "opt3": "Toróide quadrado",
+        "opt4": "Prisma"
+    },
+    {
+        "id": 15,
+        "name": "Toróide quadrado",
+        "opt1": "Dodecaedro",
+        "opt2": "Toróide enrolado",
+        "opt3": "Toróide quadrado",
+        "opt4": "Esfera"
+    }
+]
