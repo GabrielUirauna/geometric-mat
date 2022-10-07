@@ -1,19 +1,13 @@
 import * as THREE from './three.module.js';
 
-//Añadir el render
-
 let renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('level2'), antialias: true, alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 renderer.setClearColor(0x000000, 0);
 
-//Crear una escena para el objeto 3D y hacerlo transparente
-
 let scene = new THREE.Scene();
 scene.background = null;
-
-//Crear una cámara para el obejto 3D
 
 let camera = new THREE.PerspectiveCamera(
     75,
@@ -22,8 +16,6 @@ let camera = new THREE.PerspectiveCamera(
     1000
 );
 
-//Función para el reescalado del objeto 3D segun el tamaño de la ventana
-
 window.addEventListener('resize', function () {
     let width = window.innerWidth;
     let height = window.innerHeight;
@@ -31,8 +23,6 @@ window.addEventListener('resize', function () {
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
 })
-
-//Creación de los objetos 3D
 
 let geometry = new THREE.SphereGeometry(0.5, 32, 60);
 let geometry2 = new THREE.CylinderGeometry(0.5, 0.5, 1, 60);
@@ -56,15 +46,11 @@ scene.add(group);
 
 camera.position.z = 5;
 
-//Luces para el objeto 3D
-
 let light = new THREE.AmbientLight(0x404040); // soft white light
 scene.add(light);
 let light2 = new THREE.PointLight(0xffffff, 1, 100);
 light2.position.set(10, 10, 10);
 scene.add(light2);
-
-//Animación de rotación simple para el objeto 3D
 
 let animate = () => {
     requestAnimationFrame(animate);

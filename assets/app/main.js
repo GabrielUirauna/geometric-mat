@@ -1,20 +1,18 @@
 import * as THREE from './three.module.js';
 import { OrbitControls } from './OrbitControls.js';
 
-//Añadir el render
-
 let renderer = new THREE.WebGLRenderer({canvas: document.getElementById('myCanvas'), antialias: true, alpha: true});
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 renderer.setClearColor(0x000000, 0);
 
-//Crear una escena para el objeto 3D y hacerlo transparente
+//Criar uma cena para o render
 
 let scene = new THREE.Scene();
 scene.background = null;
 
-//Crear una cámara para el obejto 3D
+//Criar uma camera para o objeto
 
 let camera = new THREE.PerspectiveCamera(
     75,
@@ -23,7 +21,7 @@ let camera = new THREE.PerspectiveCamera(
     1000
 );
 
-//Función para el reescalado del objeto 3D segun el tamaño de la ventana
+//Função para redimensionar o objeto 3D de acordo com o tamanho da janela
 
 window.addEventListener('resize', function(){
     let width = window.innerWidth;
@@ -33,7 +31,7 @@ window.addEventListener('resize', function(){
     camera.updateProjectionMatrix();
 })
 
-//Controles para el movimiento del objeto 3D
+//Controles para o movimento do objeto 3D
 
 let controls = new OrbitControls(camera, renderer.domElement);
 controls.enableZoom = false;
@@ -41,7 +39,7 @@ controls.enablePan = false;
 controls.enableDamping = true;
 controls.update();
 
-//Creación del objeto 3D
+//Criação do objeto 3D
 
 let geometry = new THREE.BoxGeometry(3,3,3);
 let material = new THREE.MeshLambertMaterial( { color: 0x04a1a1 } );
@@ -51,7 +49,7 @@ scene.add(cube);
 
 camera.position.z = 5;
 
-//Luces para el objeto 3D
+//Luzes para o objeto 3D
 
 let light = new THREE.AmbientLight( 0x404040); // soft white light
 scene.add( light );
@@ -59,7 +57,7 @@ let light2 = new THREE.PointLight( 0xffffff, 1, 100);
 light2.position.set(10,10,10);
 scene.add( light2 );
 
-//Animación de rotación simple para el objeto 3D
+//Animação de rotação simples para o objeto 3D
 
 let animate = () => {
     requestAnimationFrame(animate);
